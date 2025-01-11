@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5103659A2D741B200095EDDF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 510365992D741B200095EDDF /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		510365992D741B200095EDDF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5185C17B2D2FBCB00029127D /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		5185C1722D2FBCB00029127D = {
 			isa = PBXGroup;
 			children = (
+				510365992D741B200095EDDF /* .gitignore */,
 				5185C17D2D2FBCB00029127D /* UpDownGame */,
 				5185C17C2D2FBCB00029127D /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5103659A2D741B200095EDDF /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
